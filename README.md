@@ -1,25 +1,48 @@
 # React + TypeScript + Vite
 
-markdown editor for react
+This project is a Markdown editor built with React, TypeScript, and Vite. It allows users to input Markdown text and see the rendered HTML output in real-time.
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Follow these steps to set up and run the project locally.
 
-- Configure the top-level `parserOptions` property like this:
+### Prerequisites
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- Node.js
+- npm or yarn
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Installation
+
+1. **Clone the repository**
+
+    ```bash
+    git clone [url]
+    cd markdown-editor-app
+    ```
+
+2. **Install dependencies**
+
+    Using npm:
+
+    ```bash
+    npm install
+    ```
+
+    Or using yarn:
+
+    ```bash
+    yarn install
+    ```
+
+### Running the Development Server
+
+To start the development server, run:
+
+Using npm:
+
+
+
+ ```bash
+    npm run dev
+    yarn install
+ ```
