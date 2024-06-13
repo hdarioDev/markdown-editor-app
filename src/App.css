@@ -3,23 +3,26 @@ body {
   font-family: Arial, sans-serif;
   background-color: #f4f4f9;
   color: #333;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
 }
 
 .app {
-  display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   padding: 20px;
+  max-width: 1000px;
+  margin-inline: 8%;
 }
 
 .app__editor, .app__preview, .app__customization, .app__export {
-  width: 100%;
-  max-width: 800px;
   margin: 10px 0;
 }
 
 .app__preview {
-  width: 100%;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 8px;
@@ -28,16 +31,16 @@ body {
 
 @media (max-width: 600px) {
   .markdown-editor, .markdown-preview {
-      height: 200px;
+    height: 200px;
   }
 
   .customization-options, .export-button {
-      flex-direction: column;
-      width: 100%;
+    flex-direction: column;
+    width: 100%;
   }
 
   .export-button {
-      width: 100%;
-      margin-top: 10px;
+    width: 100%;
+    margin-top: 10px;
   }
 }
