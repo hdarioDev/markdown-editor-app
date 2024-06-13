@@ -1,0 +1,19 @@
+.customization-options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.customization-options__label {
+    margin-right: 10px;
+}
+
+.customization-options__input {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.customization-options__select {
+    cursor: pointer;
+}
